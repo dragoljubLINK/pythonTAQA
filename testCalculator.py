@@ -19,7 +19,7 @@ class testSumFromNumbers(unittest.TestCase):
     def test_isGreater(self):
         calc = Calculator()
         result = calc.sumFromNumbers(2,3)
-        expected = 6
+        expected = 5
         self.assertGreaterEqual(result,expected)
 
 def suite():
